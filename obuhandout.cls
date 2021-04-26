@@ -34,10 +34,7 @@
 
 \usepackage[sf,sc]{titlesec}
 \usepackage[parfill]{parskip} % Line between paragraphs
-% \usepackage{tikz}
-% \usetikzlibrary{shapes,backgrounds}
-% \usepackage[authordate,url=false,isbn=false,backend=biber]{biblatex-chicago} %Change authordate to notes if desired.
-% \addbibresource{/Users/rlridenour/Dropbox/bibtex/rlr.bib}
+
 \clubpenalty = 10000 % Reduce orphans and widows
 \widowpenalty = 10000
 
@@ -60,6 +57,7 @@
   \bigskip\par\noindent
 }
 
+\renewcommand{\footnote}{\sidenote}
 
 \fancyheadoffset[R]{\marginparsep+\marginparwidth}
 \fancyhead[L,C]{}
